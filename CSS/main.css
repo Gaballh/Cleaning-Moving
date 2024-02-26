@@ -1,0 +1,651 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    overflow-x: hidden !important;
+}
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+.navbar ul{
+    margin-left: 250px;
+}
+.navbar ul li{
+    margin-left: 40px;
+    transition: 1s;
+    
+}
+.navbar ul li:hover{
+   border-bottom: 2px solid red;
+   
+}
+.navbar ul li a{
+    font-size: 18px;
+}
+.d-flex button{
+    margin-right: 50px;
+    background-color: rgb(9 103 53);
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(196, 189, 180);
+    transition: 1s;
+}
+.clean{
+    width: 60%;
+    /* margin-top: 150px; */
+    padding-top: 190px;
+    margin-left: 100px;
+}
+.clean h1{
+    /* width: 50%; */
+    font-size: 55px;
+    color: rgb(85, 94, 80);
+}
+.clean p{
+    /* width: 50%; */
+    text-align: justify;
+    /* margin-top: 30px; */
+    color: rgb(85, 94, 80);
+    font-weight: bold;
+}
+.clean a button{
+    margin-top: 20px;
+    width:50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgb(51, 54, 48);
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(51, 54, 48);
+    transition: 1s;
+    cursor: pointer;
+}
+.clean a button:hover{
+    background-color: rgb(196, 189, 180);
+    color: black;
+    border: 1px solid rgb(139, 135, 129);
+}
+@media (min-width: 467px){
+    .Our-cleaning-services{
+        min-height: 175vh;
+    }
+} */
+.Our-cleaning-services{
+    /* width: 100%; */
+    /* height: 230vh; */
+    text-align: center;
+    background-color: #eae8e1;
+}
+.Our-cleaning-services h1{
+    /* padding-top: 50px; */
+    font-weight: bold;
+    color: rgb(51, 54, 48);
+}
+.system1{
+    /* width: 100%;
+    height: 400px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .system1 .photo1{
+    width: 40%;
+} */
+.system1 .photo1 img{   
+    height: 100%;
+    width: 80%;
+    /* margin-top: 100px; */
+}
+.Deep-cleaning p{
+    /* margin-top: 20px; */
+    /* width: 90%; */
+    text-align: justify;
+}
+.system2{
+    /* width: 100%;
+    height: 400px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+}
+/* .system2 .photo1{
+    width: 40%;
+} */
+.system2 .photo1 img{
+    height: 100%;
+    width: 80%;
+    /* margin-top: 100px; */
+}
+.Intensive-cleaning p{
+    text-align: justify;
+}
+.system3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .system3 .photo1{
+    width: 40%;
+} */
+.system3 .photo1 img{
+    height: 100%;
+    width: 80%;
+    /* margin-top: 100px; */
+}
+.Daily-maintenance-cleaning p{
+    /* margin-top: 20px; */
+    width: 90%;
+    text-align: justify;
+}
+.section3{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.clean-house{
+    width: 50%;
+    height: 100%;
+    background-color: #5C415D;
+}
+.clean-house h4{
+    padding-top: 120px;
+    margin-left: 100px;
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.clean-house img{
+    width: 100%;
+    margin-top: 63px;
+}
+.let-life-shine-through{
+    width: 28%;
+    height: 100%;
+    background-color: #E4FDE1;
+}
+.let-life-shine-through h3{
+    margin-top: 40%;
+    margin-left: 35%;
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    
+}
+.let-life-shine-through p{
+    margin-top: 3%;
+    margin-left: 38%;
+    font-size: 12px;
+    color: #537d33;
+}
+.flower{
+    width: 22%;
+    height: 100%;
+
+}
+.flower img{
+    width: 100%;
+    height: 100%;
+}
+.Offers{
+    /* width: 100%; */
+    /* height: 80vh; */
+    background-color: white;
+    display: flex;
+    
+}
+.photos .img1{
+    margin-left: 50%;
+} 
+.Special-Offers{
+    text-align: left;
+}
+.Special-Offers h2{
+    color: black;
+    /* margin-top: 150px; */
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+.Special-Offers p{
+    text-align: justify;
+    color: grey;
+}
+.Special-Offers button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    transition: 1s;
+}
+.Special-Offers button:hover{
+    background-color: #5C415D;
+    color: white;
+}
+.Booking{
+    width: 100%;
+    height: 100vh;
+    background-color: #eae8e1;
+}
+.Booking h3{
+    padding-top: 130px;
+    font-weight: bold;
+    margin-left: 38%;
+    
+}
+.Booking p{
+    margin-left: 32%;
+}
+.Membership form{
+    width: 60%;
+    height: 650px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid #4bdd22;
+    margin-right: 40px;
+    /* animation: fade-up 4s; */
+    background-color: #4bdd22;
+    border-radius: 40px;
+    margin-left: 20%;
+    
+   
+}
+.b1{
+    margin-top: 60px;
+  }
+.Booking form input{
+    width: 50%;
+    text-align:left;
+    margin-left: 26%;
+  
+} 
+.Booking form button{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(51, 54, 48);
+    border: 1px solid #022a3a;
+    transition: 1s;
+    margin-top: 20px;
+    margin-left: 40%;
+   
+}
+.Booking form button:hover{
+    background-color: rgb(196, 189, 180);
+    color: black;
+}
+.line2{
+    width: 500px;
+    height: 2px;
+    margin: auto;
+    background-color: #022a3a;
+}
+.icons{
+    width: 100%;
+    height: 20vh;
+    background-color: #eae8e1;
+    text-align: center;
+}
+.icons .social{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* background-color: #4bdd22; */
+}
+.icons i{
+    margin-top: 70px;
+    /* margin-left: 150px; */
+    /* margin-right: 70px; */
+    font-size: 40px;
+    color: #022a3a;
+    transition: 1s;
+}
+.icons i:hover{
+    color: #537d33;
+}
+footer{
+    width: 100%;
+    background-color:#eae8e1;
+    display: flex;
+}
+.logo1{
+    width: 20%;
+    /* background-color: #022a3a; */
+
+}
+.logo1 img{
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+footer .links{
+    width: 30%;
+    /* height: 100%; */
+    /* margin-left: 200px; */
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer .links h6{
+    /* margin-left: 100px; */
+    padding-top: 25px;
+}
+footer .links a{
+    text-decoration: none;
+    color: #022a3a;
+    transition: 1s;
+}
+footer.links a:hover{
+    color: #b48eb5;
+}
+footer .locaction{
+    width: 20%;
+    height: 100%;
+    /* margin-left: 100px; */
+}
+footer .locaction h5{
+    padding-top:  70px; ;
+}
+footer .phone{
+    width: 20%;
+    height: 100%;
+    margin-left: 100px;
+}
+footer .phone h6{
+    margin-top: 70px;
+}
+footer .phone p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+@media (max-width:660px) {
+    .landing-page h1{
+        font-size: 20px;
+        width: 100%;
+
+    }
+
+    .clean button{
+        width: 200px;
+        height: 50px;
+    }
+}
+/*about-us-page*/
+.landing-page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clean1{
+    width: 60%;
+    /* margin-top: 150px; */
+    padding-top: 190px;
+    margin-left: 100px;
+}
+.clean1 h1{
+    width: 50%;
+    font-size: 55px;
+    color: white;
+}
+.line1{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+    margin-top: 30px;
+}
+.clean1 p{
+    width: 50%;
+    text-align: justify;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.clean1 a button{
+    margin-top: 20px;
+    width:50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgb(51, 54, 48);
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(51, 54, 48);
+    transition: 1s;
+    cursor: pointer;
+}
+.clean1 a button:hover{
+    background-color: rgb(196, 189, 180);
+    color: black;
+    border: 1px solid rgb(139, 135, 129);
+}
+.information{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.information1{
+    width: 50%;
+    height: 100%;
+}
+.information1 img{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 70%;
+    height: 80%;
+}
+.information2{
+    width: 50%;
+}
+.information2 h2{
+    margin-top: 150px;
+    width: 80%;
+}
+.information2 p{
+    margin-top: 40px;
+    text-align: justify;
+    width: 80%;
+}
+span{
+    color: #537d33;
+}
+.information2 button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left:30%;
+    background-color: rgb(51, 54, 48);
+    color: white;
+}
+.Why-choose{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.Why-choose h2{
+    margin-top: 100px;
+}
+.Why-choose img{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+}
+.feed-back{
+    width: 100%;
+    height: 170vh;
+    background-color: white;
+}
+.feed-back .quality{
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    height: 250px;
+    background-color: rgb(229, 191, 191);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.quality i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.quality h3{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+}
+.quality p{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 90%;
+}
+.feed-back button{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 40%;
+    background-color: rgb(51, 54, 48);
+    color: white;
+    font-size: 20px;
+}
+.landing-page5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/beginning_gardener_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section21{
+    width: 100%;
+    /* height: 100vh;   */
+    background-color: #f5f4f0;
+}
+.section21 .maintained-garden{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.section21 .maintained-garden .photo6{
+    width: 60%;
+    height: 100%;
+
+}
+.section21 .maintained-garden .photo6 img{
+    width: 100%;
+    height: 70%;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.section21 .maintained-garden .steps-to-a-well{
+    width: 30%;
+    height: 100%;
+}
+.steps-to-a-well h2{
+    margin-top:160px ;
+    font-family: "Abril Fatface", serif;
+}
+.steps-to-a-well h5{
+    margin-top:40px ;
+    font-weight: bold;
+}
+.seasonal-clean-up{
+    width: 100%;
+    text-align: center;
+}
+.seasonal-packages{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* background-color: #022a3a; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.Spring-cleaning{
+    width: 40%;
+    height: 100%;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+.Spring-cleaning img{
+    width: 100%;
+    height: 250px;
+    /* height: 40%; */
+}
+.Spring-cleaning h3{
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+}
+.Spring-cleaning p{
+    width: 80%;
+    padding-top: 10px;
+    margin: auto;
+    text-align: justify;
+    color: red;
+}
+.Spring-cleaning ul{
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #314a2a;
+}
+.Spring-cleaning ul li{
+    margin-left: 30px;
+}
+.Autumn-cleaning{
+    width: 40%;
+    height: 100%;
+}
+.fb-form {
+    width:400px;
+    margin-top: 300px;
+    top:0%;left:50%;
+    position:relative;
+    h2 {
+       text-align:center;
+       font-size:1.4em;
+    }
+    transform:translateY(-50%) translateX(-50%);
+    input {
+       margin:15px 0;
+    }
+    input[type="submit"] {
+       margin-top:0;
+       background-color: rgb(51, 54, 48);
+       border: 1px solid rgb(85, 94, 80);
+    }
+    textarea {
+       height:100px;
+       margin-bottom: 20px;
+    }
+ }
